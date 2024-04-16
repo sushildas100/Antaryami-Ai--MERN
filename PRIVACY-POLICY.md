@@ -35,7 +35,7 @@ This information is solely used to provide a more personalized experience within
 
 ## Information Protection
 
-Gemini AI Web App is committed to ensuring the security of your information. We implement industry-standard measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information.
+Antaryami AI Web App is committed to ensuring the security of your information. We implement industry-standard measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information.
 
 ## Information Sharing
 
