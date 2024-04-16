@@ -21,7 +21,7 @@ Antaryami AI Web App is a Google Gemini clone, providing users with a seamless c
 
 Explore the live demo of Gemini AI: [https://geminichatai.netlify.app/](https://geminichatai.netlify.app/)
 
-![Demo Screenshot](https://res.cloudinary.com/dqone7ala/image/upload/v1710036366/Screenshot_2024-03-10_073520_wkcnwj.png)
+![Demo Screenshot]([https://res.cloudinary.com/dqone7ala/image/upload/v1710036366/Screenshot_2024-03-10_073520_wkcnwj.png](https://github.com/sushildas100/Antaryami/blob/main/Screenshot%202024-04-16%20090912.png?raw=true))
 
 ## Installation
 
@@ -112,7 +112,7 @@ docker-compose -f docker-compose.yaml up
 
 ## Location Tracking
 
-Gemini AI Web App employs location tracking features for enhanced user experience. The following APIs are utilized on the server side to obtain location and IP details:
+Antaryami AI Web App employs location tracking features for enhanced user experience. The following APIs are utilized on the server side to obtain location and IP details:
 
 1. **IP Geolocation API:**
 
@@ -125,13 +125,13 @@ Gemini AI Web App employs location tracking features for enhanced user experienc
    - API Endpoint: [https://geocode.maps.co/](https://geocode.maps.co/)
    - The app uses this API to convert latitude and longitude coordinates into an accurate user location.
 
-Please note that the use of location data is subject to our [Privacy Policy](https://github.com/shuvra-matrix/Gemini-Ai--MERN/blob/main/PRIVACY-POLICY.md), and user consent is prioritized. The obtained location information is solely used to enhance user experience within the Gemini AI Web App. We do not share this information with third parties.
+Please note that the use of location data is subject to our [Privacy Policy](https://github.com/sushildas100/Antaryami-Ai--MERN/blob/main/PRIVACY-POLICY.md), and user consent is prioritized. The obtained location information is solely used to enhance user experience within the Antaryami AI Web App. We do not share this information with third parties.
 
-If you have any concerns or questions regarding the use of location tracking in Gemini AI Web App, please contact us at [shuvrachakrabarty97@gmail.com](shuvrachakrabarty97@gmail.com).
+If you have any concerns or questions regarding the use of location tracking in Antaryami AI Web App, please contact us at [sushilkumardas07@gmail.com](sushilkumardas07@gmail.com).
 
 ## Issues and Contributions
 
-Report issues or contribute to the project on [GitHub](https://github.com/shuvra-matrix/Gemini-Ai--MERN).
+Report issues or contribute to the project on [GitHub](https://github.com/sushildas100/Antaryami-Ai--MERN).
 
 ## Privacy Policy
 
@@ -141,4 +141,4 @@ Read our [Privacy Policy](https://github.com/shuvra-matrix/Gemini-Ai--MERN/blob/
 
 Read the [Disclaimer](https://github.com/shuvra-matrix/Gemini-Ai--MERN/blob/main/DISCLAIMER.md) before using Gemini AI. Use of this web app implies acceptance of the terms stated in the disclaimer.
 
-Enjoy chatting with Gemini AI! 🚀
+Enjoy chatting with Antaryami AI! 🚀
