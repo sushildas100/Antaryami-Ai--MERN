@@ -30,7 +30,7 @@ Explore the live demo of Gemini AI: [https://geminichatai.netlify.app/](https://
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/sushildas100/Antaryami
+   git clone https://github.com/sushildas100/Antaryami-Ai--MERN.git
    ```
 
 2. Navigate to the server folder:
@@ -77,7 +77,7 @@ Explore the live demo of Gemini AI: [https://geminichatai.netlify.app/](https://
 1. Navigate to the root directory:
 
    ```bash
-   cd Gemini-Ai--MERN
+   cd Antaryami-Ai--MERN
    ```
 
 2. Install client dependencies:
