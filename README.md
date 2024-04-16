@@ -125,7 +125,7 @@ Antaryami AI Web App employs location tracking features for enhanced user experi
    - API Endpoint: [https://geocode.maps.co/](https://geocode.maps.co/)
    - The app uses this API to convert latitude and longitude coordinates into an accurate user location.
 
-Please note that the use of location data is subject to our [Privacy Policy](https://github.com/sushildas100/Antaryami-Ai--MERN/blob/main/PRIVACY-POLICY.md), and user consent is prioritized. The obtained location information is solely used to enhance user experience within the Antaryami AI Web App. We do not share this information with third parties.
+Please note that the use of location data is subject to our [Privacy Policy](https://github.com/sushildas100/Antaryami-Ai--MERN/blob/main/README.md), and user consent is prioritized. The obtained location information is solely used to enhance user experience within the Antaryami AI Web App. We do not share this information with third parties.
 
 If you have any concerns or questions regarding the use of location tracking in Antaryami AI Web App, please contact us at [sushilkumardas07@gmail.com](sushilkumardas07@gmail.com).
 
