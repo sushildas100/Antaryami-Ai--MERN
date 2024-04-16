@@ -135,7 +135,7 @@ Report issues or contribute to the project on [GitHub](https://github.com/sushil
 
 ## Privacy Policy
 
-Read our [Privacy Policy](https://github.com/shuvra-matrix/Gemini-Ai--MERN/blob/main/PRIVACY-POLICY.md) before using Gemini AI. Your use of this web app is subject to our privacy terms.
+Read our [Privacy Policy](https://github.com/sushildas100/Antaryami-Ai--MERN/blob/main/README.md) before using Gemini AI. Your use of this web app is subject to our privacy terms.
 
 ## Disclaimer
 
