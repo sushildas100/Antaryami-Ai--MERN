@@ -1,0 +1,139 @@
+.advance-main {
+  position: absolute;
+  left: 10px;
+  top: 60px;
+  width: 240px;
+  height: 120px;
+  background-color: var(--advance-gimini-gb);
+  border: 0px;
+  border-radius: 8px;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 5px;
+  box-shadow: var(--advance-gimini-box-shadow);
+  transition: all 0.3s ease;
+  z-index: 6;
+  display: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.advance-on {
+  opacity: 1;
+
+  display: flex;
+}
+
+.advance-off {
+  opacity: 0;
+}
+
+.advance-main h4 {
+  font-size: 14px;
+  color: var(--advance-gimini-h4-color);
+  width: 100%;
+  text-align: left;
+  display: none;
+}
+
+.gemini,
+.advance-gemini {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+}
+
+.gemini img:last-child {
+  width: 35px;
+  width: 35px;
+  position: absolute;
+  right: 20px;
+}
+
+.gemini p,
+.advance-gemini p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.gemini p {
+  color: var(--gemini-p-color);
+}
+
+.advance-gemini p {
+  color: var(--gemini-advance-p-color);
+}
+
+.advance-gemini button {
+  width: 81px;
+  height: 36px;
+  border: 0px;
+  border-radius: 4px;
+  color: var(--advance-button-font-color);
+  font-size: 12px;
+  background-color: var(--advance-button-bg);
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+}
+
+.advance-gemini button:hover {
+  background-color: var(--advance-button-hover-bg);
+}
+
+.gemini {
+  cursor: pointer;
+}
+
+.gemini:hover {
+  background-color: var(--settings-option-hover-bg);
+}
+
+@media (max-width: 960px) {
+  .advance-main {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    border-radius: 0px;
+    transition: all 0.4s ease;
+    gap: 5px;
+    justify-content: flex-start;
+  }
+
+  .advance-main h4 {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .gemini,
+  .advance-gemini {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+    padding: 16px 20px;
+  }
+
+  .advance-on {
+    opacity: 1;
+    bottom: 0px;
+    top: auto;
+  }
+
+  .advance-off {
+    opacity: 1;
+    bottom: -400px;
+  }
+  .advance-main h4 {
+    display: inline;
+  }
+
+  .advance-gemini button {
+    right: 20px;
+  }
+}

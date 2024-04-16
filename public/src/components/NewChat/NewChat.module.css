@@ -1,0 +1,92 @@
+.newchat-main {
+  max-width: 830px;
+  width: 100%;
+  margin: auto;
+  word-wrap: break-word;
+}
+
+.text-section {
+  padding-top: 30px;
+  width: 100%;
+  text-align: left;
+}
+
+.text-section h1,
+h2 {
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 500;
+}
+
+@keyframes gradientAnimation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.text-section h1 {
+  color: transparent;
+  background: -webkit-linear-gradient(
+    16deg,
+    var(--bard-color-brand-text-gradient-stop-1) 0,
+    var(--bard-color-brand-text-gradient-stop-2) 9%,
+    var(--bard-color-brand-text-gradient-stop-3) 20%,
+    var(--bard-color-brand-text-gradient-stop-3) 24%,
+    var(--bard-color-brand-text-gradient-stop-2) 35%,
+    var(--bard-color-brand-text-gradient-stop-1) 44%,
+    var(--bard-color-brand-text-gradient-stop-2) 50%,
+    var(--bard-color-brand-text-gradient-stop-3) 56%
+  );
+  background: linear-gradient(
+    74deg,
+    var(--bard-color-brand-text-gradient-stop-1) 0,
+    var(--bard-color-brand-text-gradient-stop-2) 9%,
+    var(--bard-color-brand-text-gradient-stop-3) 20%,
+    var(--bard-color-brand-text-gradient-stop-3) 24%,
+    var(--bard-color-brand-text-gradient-stop-2) 35%,
+    var(--bard-color-brand-text-gradient-stop-1) 44%,
+    var(--bard-color-brand-text-gradient-stop-2) 50%,
+    var(--bard-color-brand-text-gradient-stop-3) 56%
+  );
+  overflow: hidden;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  animation: gradientAnimation 2s ease;
+  -webkit-box-orient: vertical;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+
+.text-section h2 {
+  color: var(--new-chat-h2-color);
+}
+
+@media (max-width: 1106px) {
+  .text-section {
+    padding: 20px 20px;
+  }
+
+  .text-section h1,
+  h2 {
+    font-size: 46px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 360px) {
+  .text-section,
+  h1,
+  h2 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .text-section h1 {
+    -webkit-line-clamp: 2;
+  }
+}
