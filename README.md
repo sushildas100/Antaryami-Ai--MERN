@@ -19,7 +19,7 @@ Antaryami AI Web App is a Google Gemini clone, providing users with a seamless c
 
 ## Live Demo
 
-Explore the live demo of Gemini AI: [https://geminichatai.netlify.app/](https://geminichatai.netlify.app/)
+Explore the live demo of Gemini AI: [antaryami-ai.netlify.app](https://geminichatai.netlify.app/)
 
 ![Demo Screenshot](https://github.com/sushildas100/Antaryami/blob/main/Screenshot%202024-04-16%20090912.png?raw=true)
 
