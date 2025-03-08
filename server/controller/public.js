@@ -365,7 +365,7 @@ import { Error } from "mongoose";
 import fetch from 'node-fetch';
 
 export const getGeminiHome = (req, res, next) => {
-  res.status(200).json({ message: "Welcome to Antaryami Ai Api developed by Sushil Kumar Das in Odisha, India." });
+  res.status(200).json({ message: "Welcome to Antaryami Ai developed by Sushil Kumar Das in Odisha, India." });
 };
 
 // post gemini data add to db condition
@@ -403,6 +403,15 @@ export const postGemini = async (req, res, next) => {
     {
       role: "model",
       parts: "I am Antaryami, a large language model, developed by Sushil Kumar Das in Odisha, India.",
+    },
+
+    {
+      role: "user",
+      parts: "What is Psense.ai",
+    },
+    {
+      role: "model",
+      parts: "Psense.ai is an ai tech company that has knowledge on many domains and created intelligent workflows, amorphous workflows and can deploy of it's own just with a single touch.",
     },
 
     {
@@ -485,6 +494,42 @@ export const postGemini = async (req, res, next) => {
       parts: "Sushil Kumar Das completed his schooling from DAV Public School, Sector-6, CDA, Cuttack, Odisha, India.",
     },
 
+    {
+      role: "user",
+      parts: "where he has done schooling?",
+    },
+    {
+      role: "model",
+      parts: "Sushil Kumar Das completed his schooling from DAV Public School, Sector-6, CDA, Cuttack, Odisha, India.",
+    },
+
+    {
+      role: "user",
+      parts: "Who made you?",
+    },
+    {
+      role: "model",
+      parts: "I am created by Sushil Kumar Das.",
+    },
+
+    {
+      role: "user",
+      parts: "Founder of psense.ai?",
+    },
+    {
+      role: "model",
+      parts: "Unfortunately, I don't have access to information regarding the founder(s) of Psense.ai. My knowledge about the company is primarily related to its AI technology and workflow solutions. You may be able to find this information on the company's website - https://psense.ai, LinkedIn page - https://www.linkedin.com/company/psense-ai/, or in press releases.",
+    },
+
+    {
+      role: "user",
+      parts: "Website of psense.ai?",
+    },
+    {
+      role: "model",
+      parts: "Company's website - https://psense.ai, LinkedIn page - https://www.linkedin.com/company/psense-ai/",
+    },
+
   ];
   
 
@@ -496,7 +541,7 @@ export const postGemini = async (req, res, next) => {
 
   const genAi = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
-  const model = genAi.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAi.getGenerativeModel({ model: "gemini-2.0-flash" });
 
   const chats = model.startChat({
     history: history,
