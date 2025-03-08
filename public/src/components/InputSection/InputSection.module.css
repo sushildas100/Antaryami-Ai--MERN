@@ -1,4 +1,4 @@
-.input-main {
+/* .input-main {
   margin: auto;
   position: absolute;
   bottom: 5px;
@@ -37,6 +37,142 @@
 }
 
 .input-main button {
+  background-color: transparent;
+  border: 0px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.input-main button img {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+}
+
+@keyframes widthChange {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1106px) {
+  .input-main {
+    padding: 10px 20px 15px;
+  }
+
+  .input-main button {
+    right: 25px;
+  }
+}
+
+@media (max-width: 680px) {
+  .input-main {
+    bottom: -4px;
+    padding: 15px 20px 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .input-main {
+    bottom: 28px;
+  }
+}
+
+@media (max-width: 260px) {
+  .input-main {
+    bottom: 52px;
+  }
+}
+ */
+
+
+.input-main {
+  margin: auto;
+  position: absolute;
+  bottom: 5px;
+  max-width: 830px;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: var(--chat-section-bg);
+  padding: 15px 0px 15px;
+  animation: widthChange 1s ease-out;
+}
+
+.input-main input {
+  width: 100%;
+  min-height: 65px; /* Allow height to grow */
+  height: auto; /* Adjust height dynamically */
+  padding: 15px 60px 15px 25px; /* Adjust padding for better spacing */
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--input-font-color);
+  background-color: var(--input-bg);
+  border: 0px;
+  border-radius: 30px;
+  resize: none; /* Prevent manual resizing */
+  overflow-y: hidden; /* Hide scrollbar */
+  white-space: pre-wrap; /* Allow text to wrap */
+  word-wrap: break-word; /* Break long words */
+  transition: all 0.3s ease; /* Smooth transition for focus */
+  box-shadow: 0 0 8px rgba(124, 56, 184, 0.6); /* Subtle neon glow */
+  background: linear-gradient(
+    90deg,
+    #ff7e5f 0%, /* Gradient color 1 */
+    #feb47b 9%, /* Gradient color 2 */
+    #ff6a6a 20%, /* Gradient color 3 */
+    #ff6a6a 24%, /* Gradient color 3 */
+    #feb47b 35%, /* Gradient color 2 */
+    #ff7e5f 44%, /* Gradient color 1 */
+    #feb47b 50%, /* Gradient color 2 */
+    #ff6a6a 56% /* Gradient color 3 */
+  );
+  color: var(--input-font-color);
+  background-clip: text; /* Apply gradient to text */
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent; /* Make text transparent to show gradient */
+  position: relative; /* Required for the cursor positioning */
+}
+
+.input-main input {
+  width: 100%;
+  height: 65px;
+  padding-left: 25px;
+  padding-right: 60px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--input-font-color);
+  background-color: var(--input-bg);
+  border: 0px;
+  border-radius: 30px;
+}
+
+.input-main input:focus {
+  outline: none;
+  background-color: var(--input-focus-bg);
+  border-color: rgba(101, 56, 184, 0.6); /* Brighter neon border on focus */
+  box-shadow: 0 0 30px rgba(101, 56, 184, 0.6); /* Slightly stronger glow on focus */
+}
+
+.input-main input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--input-placeholder-font-color);
+  opacity: 0.7; /* Slightly transparent placeholder */
+}
+
+
+.input-main button {
+  transform: translateY(-50%) scale(1.1); /* Slightly enlarge on hover */
   background-color: transparent;
   border: 0px;
   position: absolute;
