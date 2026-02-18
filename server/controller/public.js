@@ -512,23 +512,6 @@ export const postGemini = async (req, res, next) => {
       parts: "I am created by Sushil Kumar Das.",
     },
 
-    {
-      role: "user",
-      parts: "Founder of psense.ai?",
-    },
-    {
-      role: "model",
-      parts: "Unfortunately, I don't have access to information regarding the founder(s) of Psense.ai. My knowledge about the company is primarily related to its AI technology and workflow solutions. You may be able to find this information on the company's website - https://psense.ai, LinkedIn page - https://www.linkedin.com/company/psense-ai/, or in press releases.",
-    },
-
-    {
-      role: "user",
-      parts: "Website of psense.ai?",
-    },
-    {
-      role: "model",
-      parts: "Company's website - https://psense.ai, LinkedIn page - https://www.linkedin.com/company/psense-ai/",
-    },
 
   ];
   
@@ -541,7 +524,7 @@ export const postGemini = async (req, res, next) => {
 
   const genAi = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
-  const model = genAi.getGenerativeModel({ model: "gemini-2.0-flash" });
+  const model = genAi.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const chats = model.startChat({
     history: history,
